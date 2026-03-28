@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "datavis-marno"
+version = "0.1.0"
+description = "WDI Data Visualization Project"
+authors = ["Mark Nolepa"]
+package-mode = false
+
+[tool.poetry.dependencies]
+python = "^3.11"
+pandas = "^2.2"
+plotly = "^6.0"
+nbformat = "^5.10"
+ipykernel = "^6.29"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
